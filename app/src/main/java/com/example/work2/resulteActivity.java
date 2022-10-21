@@ -25,39 +25,40 @@ public class resulteActivity extends AppCompatActivity {
         setResult(888,intent);
         finish();
     }
+
     @Override
     protected void onStart() {
         super.onStart();
-        Log.d("sqp", "onStart: ");
+        Log.d("wcc", "onStart: ");
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        Log.d("sqp", "onStop: ");
+        Log.d("wcc", "onStop: ");
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        Log.d("sqp", "onDestroy: ");
+        Log.d("wcc", "onDestroy: ");
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        Log.d("sqp", "onPause: ");
+        Log.d("wcc", "onPause: ");
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        Log.d("sqp", "onResume: ");
+        Log.d("wcc", "onResume: ");
     }
 
     @Override
     protected void onRestart() {
         super.onRestart();
-        Log.d("sqp", "onRestart: ");
+        Log.d("wcc", "onRestart: ");
     }
 }
